@@ -32,10 +32,10 @@ in the following section.
 ## Compatibility table
 
 
-| Nextflow version 	    | Xpack version 	|
-|---	                  |---	            |
-| 21.01.1-edge, 21.04.x	| 1.0.1  	        |
-| 21.06.0-edge  	      | 1.1.0  	        |
+| Nextflow version      | Xpack version   |
+|---                    |---              |
+| 21.06.0-edge          | 1.1.0           |
+| 21.01.1-edge, 21.04.x | 1.0.1           |
 
 
 ## License  
