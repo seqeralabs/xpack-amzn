@@ -17,9 +17,9 @@ AWS [EFS](https://aws.amazon.com/efs/) is a shared file-system based on the
 NFS protocol provided by AWS. 
 
 To learn about EFS details and how to create EFS instance check the AWS documentation
-at [this link](XXXXXXX).
+at [this link](https://docs.aws.amazon.com/efs/latest/ug/creating-using-create-fs.html).
 
-Once you have create one or more file systen, to make accessible in your 
+Once you have created one or more file systems, to make accessible in your 
 pipeline execution add the `efsVolume` declaration in your configuration 
 file as shown below:
 
