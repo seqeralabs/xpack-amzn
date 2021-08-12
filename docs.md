@@ -4,7 +4,7 @@
 
 The `xpack-amzn` plugin implements an advanced version of AWS Batch executor 
 for Nextflow that allows using a shared file system in place of AWS S3 bucket 
-as the pipeline work directory and to ingest pipeline data. 
+as the pipeline work directory to ingest pipeline data. 
 
 ### Pre-requisites
 
