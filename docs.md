@@ -1,17 +1,17 @@
 # Documentation 
 
-### AWS Batch pro execution 
+## Pre-requisites
+
+Make sure to have configured the XPACK license and the plugin as described 
+in the [README](README.md#configuration) document. 
+
+## AWS Batch pro executor 
 
 The `xpack-amzn` plugin implements an advanced version of AWS Batch executor 
 for Nextflow that allows using a shared file system in place of AWS S3 bucket 
 as the pipeline work directory to ingest pipeline data. 
 
-### Pre-requisites
-
-Make sure to have configured the XPACK license and the plugin as described 
-in the [README](README.md#configuration) document. 
-
-### Use of AWS EFS file system with Nextflow 
+## Use of AWS EFS file system with Nextflow 
 
 AWS [EFS](https://aws.amazon.com/efs/) is a shared file-system based on the 
 NFS protocol provided by AWS. 
@@ -41,7 +41,7 @@ in your pipeline.
 | `aws.efsVolume.'<EFS-ID>'.readOnly`   | When `true` only allows the read of files (optional, default: `false`)
 
 
-### Use of a POSIX-based shared file-system 
+## Use of a POSIX-based shared file-system 
 
 Using `xpack-amzn` plugin you can use any POSIX-based shared file-system, along with 
 AWS Batch such as [AWS FSx](https://aws.amazon.com/fsx/), [Qumolo](https://qumulo.com/), [Weka](https://www.weka.io/), etc.

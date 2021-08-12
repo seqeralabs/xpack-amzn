@@ -29,6 +29,8 @@ The number after `@` character represents the plugin version. Make sure to use
 a version matching your Nextflow version according the compatibility table 
 in the following section. 
 
+3. Follow the [documentation](docs.md) for configure feature specific settings (optional).
+
 ## Compatibility table
 
 
