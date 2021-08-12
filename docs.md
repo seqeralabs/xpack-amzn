@@ -57,6 +57,6 @@ with the `-w` option, e.g.
 nextflow run <MY-PIPELINE> -w /mnt/some/shared/dir
 ```
 
-To access shared file paths, other the pipeline work directory, requires to 
+To access shared file paths, other than the pipeline work directory, it is required to 
 declare such file or directory paths using the Nextflow `volumes` configuration 
 option as described as [this link](https://www.nextflow.io/docs/latest/awscloud.html#volume-mounts).
