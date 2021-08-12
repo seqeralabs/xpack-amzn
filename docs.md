@@ -34,12 +34,13 @@ Repeat the above configuratio for all file system instance you want to configure
 in your pipeline. 
 
 
-| Config option 	                      | Description 	              |
-|---	                                  |---	                        |
-| `aws.efsVolume.'<EFS-ID>'.mountPath`  | The host path to which the file system should be made available (default: none )
-| `aws.efsVolume.'<EFS-ID>'.rootPath`   | The file system directory that should be made available throught the mount point (optional, default: `/`) 
-| `aws.efsVolume.'<EFS-ID>'.readOnly`   | When `true` only allows the read of files (optional, default: `false`)
+| Config option 	                  | Description 	              |
+|---	                              |---	                        |
+| `aws.efsVolume.'<ID>'.mountPath`  | The host path to which the file system should be made available (default: none )
+| `aws.efsVolume.'<ID>'.rootPath`   | The file system directory that should be made available throught the mount point (optional, default: `/`) 
+| `aws.efsVolume.'<ID>'.readOnly`   | When `true` only allows the read of files (optional, default: `false`)
 
+Note: Replace the `<ID>` placeholder in the above table with your EFS file system identifier.  
 
 ## Use of a POSIX-based shared file-system 
 
