@@ -24,7 +24,7 @@ pipeline execution add the `efsVolume` declaration in your configuration
 file as shown below:
 
 ```
-aws.efsVolume.'efs-1234567890'.mountPath = '/mnt/fsx'
+aws.batch.efsVolume.'efs-1234567890'.mountPath = '/mnt/fsx'
 ```
 
 In the above snippet replace `efs-1234567890` with the ID of your EFS instance and 
@@ -36,9 +36,9 @@ in your pipeline.
 
 | Config option 	                  | Description 	              |
 |---	                              |---	                        |
-| `aws.efsVolume.'<ID>'.mountPath`  | The host path to which the file system should be made available (default: none )
-| `aws.efsVolume.'<ID>'.rootPath`   | The file system directory that should be made available throught the mount point (optional, default: `/`) 
-| `aws.efsVolume.'<ID>'.readOnly`   | When `true` only allows the read of files (optional, default: `false`)
+| `aws.batch.efsVolume.'<ID>'.mountPath`  | The host path to which the file system should be made available (default: none )
+| `aws.batch.efsVolume.'<ID>'.rootPath`   | The file system directory that should be made available throught the mount point (optional, default: `/`) 
+| `aws.batch.efsVolume.'<ID>'.readOnly`   | When `true` only allows the read of files (optional, default: `false`)
 
 Note: Replace the `<ID>` placeholder in the above table with your EFS file system identifier.  
 
