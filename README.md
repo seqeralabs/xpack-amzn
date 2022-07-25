@@ -21,7 +21,7 @@ snippet:
 
     ```
     plugins {
-      id 'xpack-amzn@1.1.0'
+      id 'xpack-amzn@1.2.0'
     }
     ``` 
 
