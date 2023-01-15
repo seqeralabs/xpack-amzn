@@ -21,7 +21,7 @@ snippet:
 
     ```
     plugins {
-      id 'xpack-amzn@1.2.0'
+      id 'xpack-amzn@1.2.1'
     }
     ``` 
 
@@ -34,13 +34,14 @@ in the following section.
 ## Compatibility table
 
 
-| Nextflow version      | Xpack version   |
-|---                    |---              |
-| 22.01.1-edge          | 1.2.0           |
-| 21.06.0-edge          | 1.1.0           |
-| 21.01.1-edge, 21.04.x | 1.0.1           |
+| Nextflow version        | Xpack version   |
+|---                      |---              |
+| 23.01.0-edge (or later) | 1.2.1           |
+| 22.01.1-edge (or later) | 1.2.0           |
+| 21.06.0-edge (or later) | 1.1.0           |
+| 21.01.1-edge, 21.04.x (or later) | 1.0.1  |
 
 
 ## License  
 
-Copyright 2021, Seqera Labs, S.L. All Rights Reserved.
+Copyright 2021-2023, Seqera Labs, S.L. All Rights Reserved.
