@@ -21,7 +21,7 @@ snippet:
 
     ```
     plugins {
-      id 'xpack-amzn@1.2.1'
+      id 'xpack-amzn@1.3.1'
     }
     ``` 
 
@@ -36,7 +36,8 @@ in the following section.
 
 | Nextflow version        | Xpack version   |
 |---                      |---              |
-| 23.05.0-edge (or later) | 1.3.0           |
+| 23.12.0-edge (or later) | 1.4.0           |
+| 23.05.0-edge (or later) | 1.3.1           |
 | 23.01.0-edge (or later) | 1.2.1           |
 | 22.01.1-edge (or later) | 1.2.0           |
 | 21.06.0-edge (or later) | 1.1.0           |
