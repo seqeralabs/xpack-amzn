@@ -21,12 +21,12 @@ snippet:
 
     ```
     plugins {
-      id 'xpack-amzn@1.3.1'
+      id 'xpack-amzn@1.5.0'
     }
     ``` 
 
 The number after `@` character represents the plugin version. Make sure to use 
-a version matching your Nextflow version according the compatibility table 
+a version matching your Nextflow version according to the compatibility table 
 in the following section. 
 
 3. Follow the [documentation](docs.md) for configure feature specific settings (optional).
@@ -36,6 +36,7 @@ in the following section.
 
 | Nextflow version        | Xpack version   |
 |---                      |---              |
+| 24.01.0-edge (or later) | 1.5.0           |
 | 23.12.0-edge (or later) | 1.4.0           |
 | 23.05.0-edge (or later) | 1.3.1           |
 | 23.01.0-edge (or later) | 1.2.1           |
@@ -46,4 +47,4 @@ in the following section.
 
 ## License  
 
-Copyright 2021-2023, Seqera Labs, S.L. All Rights Reserved.
+Copyright 2021-2024, Seqera Labs, S.L. All Rights Reserved.
