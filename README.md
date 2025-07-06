@@ -36,6 +36,7 @@ in the following section.
 
 | Nextflow version        | Xpack version   |
 |---                      |---              |
+| 25.06.0-edge (or later) | 2.0.0           |
 | 24.01.0-edge (or later) | 1.5.0           |
 | 23.12.0-edge (or later) | 1.4.0           |
 | 23.05.0-edge (or later) | 1.3.1           |
@@ -47,4 +48,4 @@ in the following section.
 
 ## License  
 
-Copyright 2021-2024, Seqera Labs, S.L. All Rights Reserved.
+Copyright 2021-2025, Seqera Labs, S.L. All Rights Reserved.
