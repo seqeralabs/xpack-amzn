@@ -36,6 +36,7 @@ in the following section.
 
 | Nextflow version        | Xpack version   |
 |---                      |---              |
+| 25.07.0-edge (or later) | 2.1.0           |
 | 25.06.0-edge (or later) | 2.0.1           |
 | 24.01.0-edge (or later) | 1.5.0           |
 | 23.12.0-edge (or later) | 1.4.0           |
